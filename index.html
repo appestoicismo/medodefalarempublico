@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Acabe com o Medo de Falar em Público - Áudio de Hipnose</title>
+   <script>
+     !function(f,b,e,v,n,t,s)
+     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+     n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+     if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+     n.queue=[];t=b.createElement(e);t.async=!0;
+     t.src=v;s=b.getElementsByTagName(e)[0];
+     s.parentNode.insertBefore(t,s)}(window, document,'script',
+     'https://connect.facebook.net/en_US/fbevents.js');
+     fbq('init', '666727852401320');
+     fbq('track', 'PageView');
+   </script>
+   <noscript><img height="1" width="1" style="display:none"
+     src="https://www.facebook.com/tr?id=666727852401320&ev=PageView&noscript=1"
+   /></noscript>
+   <style>
+       * {
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+       }
+       
+       body {
+           font-family: 'Arial', sans-serif;
+           line-height: 1.6;
+           color: #333;
+           background-color: #f8f9fa;
+       }
+       
+       .container {
+           max-width: 1200px;
+           margin: 0 auto;
+           padding: 0 20px;
+       }
+       
+       .hero {
+           background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+           color: white;
+           padding: 80px 0;
+           text-align: center;
+       }
+       
+       .hero h1 {
+           font-size: 3.5rem;
+           font-weight: bold;
+           margin-bottom: 30px;
+           text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+       }
+       
+       .hero-image {
+           width: 300px;
+           height: 200px;
+           object-fit: cover;
+           border-radius: 15px;
+           margin: 30px 0;
+           box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+       }
+       
+       .hero p {
+           font-size: 1.3rem;
+           margin-bottom: 40px;
+           max-width: 800px;
+           margin-left: auto;
+           margin-right: auto;
+       }
+       
+       .cta-button {
+           background: linear-gradient(45deg, #ff6b35, #f7931e);
+           color: white;
+           padding: 20px 40px;
+           font-size: 1.3rem;
+           font-weight: bold;
+           border: none;
+           border-radius: 50px;
+           cursor: pointer;
+           text-decoration: none;
+           display: inline-block;
+           margin: 20px 0;
+           transition: all 0.3s ease;
+           box-shadow: 0 8px 25px rgba(255, 107, 53, 0.4);
+       }
+       
+       .cta-button:hover {
+           transform: translateY(-3px);
+           box-shadow: 0 12px 35px rgba(255, 107, 53, 0.6);
+       }
+       
+       .section {
+           padding: 80px 0;
+       }
+       
+       .section-white {
+           background-color: white;
+       }
+       
+       .section-gray {
+           background-color: #f8f9fa;
+       }
+       
+       .section-title {
+           text-align: center;
+           font-size: 2.5rem;
+           margin-bottom: 50px;
+           color: #2c3e50;
+       }
+       
+       .demo-visual {
+           text-align: center;
+           padding: 60px 0;
+           background: linear-gradient(135deg, #74b9ff, #0984e3);
+           color: white;
+       }
+       
+       .demo-visual h2 {
+           font-size: 2.2rem;
+           margin-bottom: 30px;
+       }
+       
+       .demo-visual img {
+           width: 250px;
+           height: 180px;
+           object-fit: cover;
+           border-radius: 15px;
+           margin: 20px 0;
+           box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+       }
+       
+       .benefits {
+           display: grid;
+           grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+           gap: 40px;
+           margin-top: 50px;
+       }
+       
+       .benefit-item {
+           background: white;
+           padding: 30px;
+           border-radius: 15px;
+           box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+           text-align: center;
+           transition: transform 0.3s ease;
+       }
+       
+       .benefit-item:hover {
+           transform: translateY(-5px);
+       }
+       
+       .benefit-item .emoji {
+           font-size: 3rem;
+           margin-bottom: 20px;
+       }
+       
+       .benefit-item h3 {
+           font-size: 1.3rem;
+           color: #2c3e50;
+           margin-bottom: 15px;
+       }
+       
+       .urgency {
+           background: linear-gradient(135deg, #fd79a8, #e84393);
+           color: white;
+           text-align: center;
+           padding: 60px 0;
+       }
+       
+       .urgency h2 {
+           font-size: 2.5rem;
+           margin-bottom: 30px;
+       }
+       
+       .ideal-for {
+           display: grid;
+           grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+           gap: 30px;
+           margin-top: 50px;
+       }
+       
+       .ideal-item {
+           background: linear-gradient(135deg, #a29bfe, #6c5ce7);
+           color: white;
+           padding: 30px;
+           border-radius: 15px;
+           text-align: center;
+       }
+       
+       .ideal-item .emoji {
+           font-size: 3rem;
+           margin-bottom: 15px;
+       }
+       
+       .process-steps {
+           display: grid;
+           grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+           gap: 30px;
+           margin-top: 50px;
+       }
+       
+       .step {
+           background: white;
+           padding: 30px;
+           border-radius: 15px;
+           box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+           text-align: center;
+       }
+       
+       .step-number {
+           background: linear-gradient(45deg, #00b894, #00a085);
+           color: white;
+           width: 50px;
+           height: 50px;
+           border-radius: 50%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           font-size: 1.5rem;
+           font-weight: bold;
+           margin: 0 auto 20px;
+       }
+       
+       .offer {
+           background: linear-gradient(135deg, #fdcb6e, #e17055);
+           color: white;
+           text-align: center;
+           padding: 80px 0;
+       }
+       
+       .offer h2 {
+           font-size: 3rem;
+           margin-bottom: 30px;
+       }
+       
+       .price {
+           font-size: 4rem;
+           font-weight: bold;
+           margin: 30px 0;
+           text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+       }
+       
+       .faq {
+           max-width: 800px;
+           margin: 0 auto;
+       }
+       
+       .faq-item {
+           background: white;
+           margin-bottom: 20px;
+           border-radius: 10px;
+           overflow: hidden;
+           box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+       }
+       
+       .faq-question {
+           background: #667eea;
+           color: white;
+           padding: 20px;
+           font-weight: bold;
+           font-size: 1.1rem;
+       }
+       
+       .faq-answer {
+           padding: 20px;
+           color: #2c3e50;
+       }
+       
+       .authority {
+           background: linear-gradient(135deg, #55a3ff, #3742fa);
+           color: white;
+           text-align: center;
+           padding: 80px 0;
+       }
+       
+       .comparison {
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+           gap: 40px;
+           margin-top: 50px;
+       }
+       
+       .before, .after {
+           padding: 40px;
+           border-radius: 15px;
+           text-align: center;
+       }
+       
+       .before {
+           background: linear-gradient(135deg, #ff7675, #d63031);
+           color: white;
+       }
+       
+       .after {
+           background: linear-gradient(135deg, #00b894, #00a085);
+           color: white;
+       }
+       
+       .footer {
+           background: #2c3e50;
+           color: white;
+           text-align: center;
+           padding: 60px 0;
+       }
+       
+       .footer-info {
+           margin-bottom: 30px;
+           line-height: 2;
+       }
+       
+       .final-cta {
+           background: linear-gradient(135deg, #fd79a8, #fdcb6e);
+           color: white;
+           text-align: center;
+           padding: 80px 0;
+       }
+       
+       .final-cta h2 {
+           font-size: 3rem;
+           margin-bottom: 40px;
+       }
+       
+       @media (max-width: 768px) {
+           .hero h1 {
+               font-size: 2.5rem;
+           }
+           
+           .hero p {
+               font-size: 1.1rem;
+           }
+           
+           .section-title {
+               font-size: 2rem;
+           }
+           
+           .comparison {
+               grid-template-columns: 1fr;
+           }
+           
+           .price {
+               font-size: 3rem;
+           }
+       }
+   </style>
+</head>
+<body>
+   <!-- 1. Venda Imediata (Primeira dobra) -->
+   <section class="hero">
+       <div class="container">
+           <h1>Acabe com o medo de falar em público e entre confiante na sua apresentação</h1>
+           <img src="https://appestoicismo.github.io/insonia/dormindo3.jpg" alt="Áudio de Hipnose" class="hero-image">
+           <p>Áudio de hipnose rápida para ouvir algumas horas antes da apresentação, reduzindo ansiedade, batimento acelerado e tremores. Transforme seu nervosismo em confiança com técnicas comprovadas de relaxamento profundo.</p>
+           <a href="#oferta" class="cta-button">Quero Reduzir Minha Ansiedade Agora</a>
+       </div>
+   </section>
+
+   <!-- 2. Demonstrativo Visual -->
+   <section class="demo-visual">
+       <div class="container">
+           <h2>Veja o material que você vai receber</h2>
+           <img src="https://appestoicismo.github.io/insonia/dormindo3.jpg" alt="Tela do celular com áudio">
+           <p style="font-size: 1.2rem; margin-top: 20px;">Um áudio guiado exclusivo para acalmar sua mente e aumentar a confiança</p>
+       </div>
+   </section>
+
+   <!-- 3. Benefícios -->
+   <section class="section section-white">
+       <div class="container">
+           <h2 class="section-title">Benefícios Transformadores</h2>
+           <div class="benefits">
+               <div class="benefit-item">
+                   <div class="emoji">✨</div>
+                   <h3>Acalme o coração acelerado em minutos</h3>
+                   <p>Técnicas de respiração e relaxamento que normalizam os batimentos cardíacos rapidamente.</p>
+               </div>
+               <div class="benefit-item">
+                   <div class="emoji">🧘‍♂️</div>
+                   <h3>Visualize sua apresentação com clareza</h3>
+                   <p>Mental training que prepara sua mente para o sucesso antes mesmo de subir ao palco.</p>
+               </div>
+               <div class="benefit-item">
+                   <div class="emoji">💡</div>
+                   <h3>Reduza os brancos na mente e aumente o foco</h3>
+                   <p>Elimine aqueles momentos em que a mente fica em branco e mantenha o raciocínio fluindo.</p>
+               </div>
+               <div class="benefit-item">
+                   <div class="emoji">🎤</div>
+                   <h3>Sinta-se seguro para falar em público</h3>
+                   <p>Desenvolva autoconfiança genuína para se expressar com naturalidade diante de qualquer plateia.</p>
+               </div>
+               <div class="benefit-item">
+                   <div class="emoji">😌</div>
+                   <h3>Controle tremores e ansiedade</h3>
+                   <p>Técnicas específicas para controlar manifestações físicas do nervosismo antes de subir ao palco.</p>
+               </div>
+           </div>
+       </div>
+   </section>
+
+   <!-- 4. Headline de Urgência + Botão -->
+   <section class="urgency">
+       <div class="container">
+           <h2>Liberado imediatamente após a compra – use já no seu próximo desafio!</h2>
+           <a href="#oferta" class="cta-button">Quero Garantir Meu Áudio Agora</a>
+       </div>
+   </section>
+
+   <!-- 5. Ideal para você que deseja -->
+   <section class="section section-gray">
+       <div class="container">
+           <h2 class="section-title">Ideal para você que deseja...</h2>
+           <div class="ideal-for">
+               <div class="ideal-item">
+                   <div class="emoji">🎤</div>
+                   <h3>Falar em público sem travar</h3>
+                   <p>Para quem sofre com ansiedade em apresentações e quer se expressar com fluidez.</p>
+               </div>
+               <div class="ideal-item">
+                   <div class="emoji">📊</div>
+                   <h3>Se destacar em reuniões</h3>
+                   <p>Para quem precisa mostrar autoridade no trabalho e liderar com confiança.</p>
+               </div>
+               <div class="ideal-item">
+                   <div class="emoji">🎓</div>
+                   <h3>Apresentar trabalhos com confiança</h3>
+                   <p>Para estudantes e profissionais que querem causar boa impressão em apresentações.</p>
+               </div>
+           </div>
+       </div>
+   </section>
+
+   <!-- 6. Como Funciona -->
+   <section class="section section-white">
+       <div class="container">
+           <h2 class="section-title">Como Funciona (processo simples)</h2>
+           <div class="process-steps">
+               <div class="step">
+                   <div class="step-number">1</div>
+                   <h3>Faça sua compra</h3>
+                   <p>Processo seguro e rápido em menos de 2 minutos.</p>
+               </div>
+               <div class="step">
+                   <div class="step-number">2</div>
+                   <h3>Receba acesso imediato</h3>
+                   <p>Link do áudio enviado automaticamente para seu e-mail.</p>
+               </div>
+               <div class="step">
+                   <div class="step-number">3</div>
+                   <h3>Ouça antes da apresentação</h3>
+                   <p>Use no celular ou computador algumas horas antes do evento.</p>
+               </div>
+               <div class="step">
+                   <div class="step-number">4</div>
+                   <h3>Entre em cena com confiança</h3>
+                   <p>Sinta a diferença com mente tranquila e autoconfiança.</p>
+               </div>
+           </div>
+       </div>
+   </section>
+
+   <!-- Comparativo Antes vs Depois -->
+   <section class="section section-gray">
+       <div class="container">
+           <h2 class="section-title">A Transformação que Você Vai Viver</h2>
+           <div class="comparison">
+               <div class="before">
+                   <h3>ANTES</h3>
+                   <p>🔴 Coração acelerado</p>
+                   <p>😰 Medo paralisante</p>
+                   <p>🤯 Mente em branco</p>
+                   <p>😵 Tremores visíveis</p>
+                   <p>💔 Falta de confiança</p>
+               </div>
+               <div class="after">
+                   <h3>DEPOIS</h3>
+                   <p>💚 Calma e tranquilidade</p>
+                   <p>😌 Controle emocional</p>
+                   <p>💡 Clareza mental</p>
+                   <p>💪 Postura firme</p>
+                   <p>✨ Confiança para se expressar</p>
+               </div>
+           </div>
+       </div>
+   </section>
+
+   <!-- 7. Ofertas e Valores -->
+   <section id="oferta" class="offer">
+       <div class="container">
+           <h2>Apenas R$ 19,90 para transformar sua próxima apresentação</h2>
+           <img src="https://appestoicismo.github.io/insonia/dormindo3.jpg" alt="Produto" style="width: 300px; height: 200px; object-fit: cover; border-radius: 15px; margin: 30px 0;">
+           <div class="price">R$ 19,90</div>
+           <a href="#" class="cta-button" style="font-size: 1.5rem; padding: 25px 50px;">Quero Garantir Meu Acesso Agora – R$ 19,90</a>
+       </div>
+   </section>
+
+   <!-- 8. FAQ -->
+   <section class="section section-white">
+       <div class="container">
+           <h2 class="section-title">Perguntas Frequentes</h2>
+           <div class="faq">
+               <div class="faq-item">
+                   <div class="faq-question">Como recebo o áudio?</div>
+                   <div class="faq-answer">Logo após a compra, você recebe acesso imediato por e-mail com o link para download.</div>
+               </div>
+               <div class="faq-item">
+                   <div class="faq-question">Posso ouvir em qualquer celular?</div>
+                   <div class="faq-answer">Sim, funciona em qualquer dispositivo com player de áudio - celular, tablet, computador.</div>
+               </div>
+               <div class="faq-item">
+                   <div class="faq-question">Preciso ter experiência com hipnose?</div>
+                   <div class="faq-answer">Não, o áudio é totalmente guiado e desenvolvido para iniciantes. Basta ouvir e seguir as instruções.</div>
+               </div>
+               <div class="faq-item">
+                   <div class="faq-question">E se eu não gostar?</div>
+                   <div class="faq-answer">Você pode solicitar suporte pelo e-mail contato@appestoicismo.com.br ou WhatsApp (19)974010028.</div>
+               </div>
+               <div class="faq-item">
+                   <div class="faq-question">Quanto tempo dura o áudio?</div>
+                   <div class="faq-answer">O áudio tem duração otimizada para ser eficaz sem ser cansativo, perfeito para usar antes de apresentações.</div>
+               </div>
+           </div>
+       </div>
+   </section>
+
+   <!-- 9. Autoridade -->
+   <section class="authority">
+       <div class="container">
+           <h2>Conte com a Experiência Profissional</h2>
+           <img src="https://appestoicismo.github.io/insonia/dormindo3.jpg" alt="Equipe de profissionais" style="width: 350px; height: 250px; object-fit: cover; border-radius: 15px; margin: 30px 0;">
+           <p style="font-size: 1.3rem; max-width: 800px; margin: 0 auto;">Conte com a experiência de uma <strong>equipe multidisciplinar de terapeutas</strong> especializados em hipnose, psicologia e neurociência. Método desenvolvido com respaldo científico e técnicas comprovadas para resultados efetivos.</p>
+       </div>
+   </section>
+
+   <!-- 11. CTA Final -->
+   <section class="final-cta">
+       <div class="container">
+           <h2>Dê adeus ao nervosismo e entre confiante na sua próxima apresentação</h2>
+           <a href="#" class="cta-button" style="font-size: 1.8rem; padding: 30px 60px;">Quero Garantir Meu Acesso Agora – R$ 19,90</a>
+       </div>
+   </section>
+
+   <!-- 10. Rodapé -->
+   <footer class="footer">
+       <div class="container">
+           <div class="footer-info">
+               <p><strong>Responsável:</strong> Hipnoterapeuta Alex Dantas</p>
+               <p><strong>Suporte:</strong> contato@appestoicismo.com.br</p>
+               <p><strong>WhatsApp:</strong> (19) 974010028</p>
+               <p><strong>CNPJ:</strong> 40.678.175/0001-77</p>
+               <p><strong>Aplicativo:</strong> AutoHipnose</p>
+           </div>
+           <p style="margin-top: 30px; opacity: 0.8;">© 2025 - Todos os direitos reservados</p>
+       </div>
+   </footer>
+
+   <script>
+       // Smooth scrolling para links internos
+       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+           anchor.addEventListener('click', function (e) {
+               e.preventDefault();
+               document.querySelector(this.getAttribute('href')).scrollIntoView({
+                   behavior: 'smooth'
+               });
+           });
+       });
+   </script>
+</body>
+</html>
